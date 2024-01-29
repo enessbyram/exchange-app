@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>Exchange Rate App</header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <input type="text" class="form-control" id="currencyOne" list="listOne" placeholder="Döviz Kuru">
+                <datalist id="listOne">
+
+                </datalist>
+            </div>
+            <div class="row">
+                <input type="text" class="form-control" id="currencyTwo" list="listTwo" placeholder="Döviz Kuru">
+                <datalist id="listTwo">
+
+                </datalist>
+            </div>
+            <div class="row">
+                <input type="number" id="amount" class="form-control" placeholder="Miktar">
+            </div>
+            <button id="calculate">Hesapla</button>
+            <div id="result">
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
